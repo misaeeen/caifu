@@ -1,0 +1,37 @@
+
+//
+//  PrefixHeader.pch
+//  MusicTest
+//
+//  Created by LZZ on 2020/11/2.
+//  Copyright © 2020 CF. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Foundation/Foundation.h>
+
+static NSString *kURL_BASE_FRONT = @"https://exam.api.spas.org.cn";//@"https://texam.caifulife.cn";//
+
+//#define kURL_BASE_FRONT @"https://texam.caifulife.cn" //
+#define kURL_BASE_WEB @"http://te.caifulife.cn:8088"
+
+#import "AppDefaultConstant.h"
+#import "NSString+CLString.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <YYModel/YYModel.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImage.h>
+#import <MJRefresh.h>
+#import "MBProgressHUD+Add.h"
+#import "UIColor+HexColor.h"
+#import "UILabel+KitCore.h"
+#import "UIButton+KitCore.h"
+#import "UIScrollView+Refresh.h"
+#import "BaseViewController.h"
+#import "UIImageView+LoadImageWithContentFile.h"
+#import "LZWebUrl.h"
+#import "CXAlertView.h"
+#import "TestInfoCache.h"
+#endif /* PrefixHeader_pch */
+
